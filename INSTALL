@@ -1,0 +1,21 @@
+== Database ==
+Create a new database, import schema.sql, and make sure you have a user
+with usage privileges for the database
+
+add at least one car like this:
+INSERT INTO `cars` SET `make`  = 'Ford',
+                       `model` = 'Focus',
+                       `hp`    = 112,
+                       `plate` = 'X-EE 1111'
+
+
+== PHP Config ==
+open includes/bootstrap.php and find (somewhere near line 40): // init db
+set the correct connect information for mysql
+
+to make smarty works correctly make sure your php has write access to:
+includes/lib/Smarty/compiled
+
+
+== Run ==
+put everything in some location that is accessible via http and call index.php

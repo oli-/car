@@ -1,0 +1,15 @@
+== About ==
+This is a little project I set up after buying a car.
+It's supposed to track fuel consumption, graph average consumption and follow fuel prices.
+You can also enter you parking tickets
+
+== Requirements ==
+PHP >= 5
+MySQL >= 4
+
+== Installation ==
+see INSTALL
+
+== License ==
+Licensed under the GNU General Public License, Version 3
+see LICENSE
