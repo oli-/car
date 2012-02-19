@@ -6,6 +6,7 @@ You can also enter you parking tickets
 == Requirements ==
 PHP >= 5
 MySQL >= 4
+Zend
 
 == Installation ==
 see INSTALL

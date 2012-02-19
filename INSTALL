@@ -10,6 +10,9 @@ INSERT INTO `cars` SET `make`  = 'Ford',
 
 
 == PHP Config ==
+create a symlink to the zend framework in includes/lib/
+(includes/lib/Zend -> points to Zend)
+
 open includes/bootstrap.php and find (somewhere near line 40): // init db
 set the correct connect information for mysql
 
